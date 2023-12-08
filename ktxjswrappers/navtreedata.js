@@ -27,9 +27,12 @@ var NAVTREE =
   [ "KTX Javascript Wrappers Reference", "index.html", [
     [ "libktx Binding", "libktx_js.html", null ],
     [ "Basis Universal Image Transcoder binding", "msc_basis_transcoder.html", null ],
+    [ "Authors", "../authors.html", null ],
+    [ "LICENSE file for the KhronosGroup/KTX-Software project", "../license.html", null ],
     [ "Package", "../index.html", null ],
     [ "KTX Tools Reference", "../ktxtools/index.html", null ],
     [ "libktx Reference", "../libktx/index.html", null ],
+    [ "pyktx Reference", "pyktx/index.html", null ],
     [ "License", "../license.html", null ]
   ] ]
 ];

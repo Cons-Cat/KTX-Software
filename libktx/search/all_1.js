@@ -1,9 +1,6 @@
 var searchData=
 [
-  ['address_0',['address',['../structktxStream.html#ab96816d317aa5196e2ef198d9a8d621b',1,'ktxStream']]],
-  ['allocatoraddress_1',['allocatorAddress',['../structktxStream.html#a6de39e2650d144d37e3f2c32081dd55f',1,'ktxStream']]],
-  ['astcdefaultoptions_2',['astcDefaultOptions',['../structktxTexture.html#abf498bb06f9a41b3df821e0d2a52f7ef',1,'ktxTexture']]],
-  ['astcencoderaction_3',['astcEncoderAction',['../structktxTexture.html#aab7a2ad4d1d251b403c8f8fea697941c',1,'ktxTexture']]],
-  ['astcswizzle_4',['astcSwizzle',['../structktxTexture.html#afc2340b7387e1de253eedc9b425dbf9d',1,'ktxTexture']]],
-  ['astcvkformat_5',['astcVkFormat',['../structktxTexture.html#ab30c7f529ebd2c74aa9ab8105f422435',1,'ktxTexture']]]
+  ['1_0',['1',['../libktx_history.html#v4',1,'Version 2.0.1'],['../libktx_history.html#v7',1,'Version 3.0.1']]],
+  ['1_200_1',['Version 1.0',['../libktx_history.html#v1',1,'']]],
+  ['1_200_201_2',['Version 1.0.1',['../libktx_history.html#v2',1,'']]]
 ];

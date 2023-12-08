@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['qualitylevel_0',['qualityLevel',['../structktxAstcParams.html#aac5068885c586a1454efbf2e9cf4b3ed',1,'ktxAstcParams::qualityLevel'],['../structktxBasisParams.html#aac5068885c586a1454efbf2e9cf4b3ed',1,'ktxBasisParams::qualityLevel']]],
-  ['queue_1',['queue',['../structktxVulkanDeviceInfo.html#ab3246009ce333f50c2ca3d8187c3849e',1,'ktxVulkanDeviceInfo']]]
+  ['layercount_0',['layerCount',['../structktxVulkanTexture.html#a387ad43ce8155b27c8feab827f437a40',1,'ktxVulkanTexture']]],
+  ['levelcount_1',['levelCount',['../structktxVulkanTexture.html#afaaf1db5d13d0299791944833b03af9c',1,'ktxVulkanTexture']]],
+  ['libktx_20reference_2',['libktx Reference',['../index.html',1,'']]],
+  ['list_3',['Deprecated List',['../deprecated.html',1,'']]],
+  ['loader_4',['loader',['../group__ktx__glloader.html',1,'OpenGL Texture Image Loader'],['../group__ktx__vkloader.html',1,'Vulkan Texture Image Loader']]]
 ];

@@ -25,6 +25,7 @@
 var menudata={children:[
 {text:"libktx Reference",url:"index.html"},
 {text:"Related Pages",url:"pages.html"},
+{text:"Topics",url:"topics.html"},
 {text:"Data Structures",url:"annotated.html",children:[
 {text:"Data Structures",url:"annotated.html"},
 {text:"Data Fields",url:"functions.html",children:[
@@ -93,7 +94,8 @@ var menudata={children:[
 {text:"File List",url:"files.html"},
 {text:"Globals",url:"globals.html",children:[
 {text:"All",url:"globals.html",children:[
-{text:"a",url:"globals.html#index_a"},
+{text:"_",url:"globals.html#index__5F"},
+{text:"a",url:"globals_a.html#index_a"},
 {text:"b",url:"globals_b.html#index_b"},
 {text:"d",url:"globals_d.html#index_d"},
 {text:"e",url:"globals_e.html#index_e"},
@@ -133,4 +135,5 @@ var menudata={children:[
 {text:"Package",url:"../index.html"},
 {text:"KTX Tools Reference",url:"../ktxtools/index.html"},
 {text:"KTX Javascript Wrappers Reference",url:"../ktxjswrappers/index.html"},
+{text:"pyktx Reference",url:"pyktx/index.html"},
 {text:"License",url:"../license.html"}]}

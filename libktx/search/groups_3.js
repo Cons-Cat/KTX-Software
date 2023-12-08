@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['writer_0',['Writer',['../group__writer.html',1,'']]]
+  ['reader_0',['Reader',['../group__reader.html',1,'']]]
 ];

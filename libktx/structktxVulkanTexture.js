@@ -1,6 +1,8 @@
 var structktxVulkanTexture =
 [
     [ "ktxVulkanTexture_Destruct", "group__ktx__vkloader.html#gaf620a84f6bc59bff03b521e55a654f19", null ],
+    [ "ktxVulkanTexture_Destruct_WithSuballocator", "group__ktx__vkloader.html#ga5a783db9431738b9b18b9fc585183490", null ],
+    [ "allocationId", "structktxVulkanTexture.html#a723f84255a60631ba53e0c5d2f8f398f", null ],
     [ "depth", "structktxVulkanTexture.html#af43b771026fceb9a0b28256afc08f69b", null ],
     [ "deviceMemory", "structktxVulkanTexture.html#a68699cf926eef628d726fe0fa402c34d", null ],
     [ "height", "structktxVulkanTexture.html#a6ad4f820ce4e75cda0686fcaad5168be", null ],

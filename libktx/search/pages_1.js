@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['libktx_20reference_0',['libktx Reference',['../index.html',1,'']]]
+  ['history_0',['Revision History',['../libktx_history.html',1,'']]]
 ];

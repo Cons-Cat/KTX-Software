@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['opengl_20texture_20image_20loader_0',['OpenGL Texture Image Loader',['../group__ktx__glloader.html',1,'']]]
+  ['image_20loader_0',['image loader',['../group__ktx__glloader.html',1,'OpenGL Texture Image Loader'],['../group__ktx__vkloader.html',1,'Vulkan Texture Image Loader']]]
 ];

@@ -28,4 +28,5 @@ var menudata={children:[
 {text:"KTX Tools Reference",url:"ktxtools/index.html"},
 {text:"libktx Reference",url:"libktx/index.html"},
 {text:"KTX Javascript Wrappers Reference",url:"ktxjswrappers/index.html"},
-{text:"",url:"@ref license"}]}
+{text:"pyktx Reference",url:"pyktx/index.html"},
+{text:"",url:"license.html"}]}

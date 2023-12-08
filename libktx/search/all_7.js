@@ -1,10 +1,11 @@
 var searchData=
 [
-  ['generatemipmaps_0',['generateMipmaps',['../structktxTexture.html#a4159f859437a820d7984beda366e2eaa',1,'ktxTexture::generateMipmaps'],['../structktxTextureCreateInfo.html#a9c26601222e6a037f7dbae7b61b18fd0',1,'ktxTextureCreateInfo::generateMipmaps']]],
-  ['getpos_1',['getpos',['../structktxStream.html#adcabf99e783fe9ca551ac9706372400c',1,'ktxStream']]],
-  ['getsize_2',['getsize',['../structktxStream.html#a76bd679ca3d583cc56c524e53665e775',1,'ktxStream']]],
-  ['glbaseinternalformat_3',['glBaseInternalformat',['../structktxTexture1.html#aaadefe13bf76c26cb921afa52fb29192',1,'ktxTexture1']]],
-  ['glformat_4',['glFormat',['../structktxTexture1.html#a05fa4fecc2735f68d34651a62493ecd9',1,'ktxTexture1']]],
-  ['glinternalformat_5',['glInternalformat',['../structktxTexture1.html#a1318d73f800ff61d045b740331939596',1,'ktxTexture1::glInternalformat'],['../structktxTextureCreateInfo.html#a1318d73f800ff61d045b740331939596',1,'ktxTextureCreateInfo::glInternalformat']]],
-  ['gltype_6',['glType',['../structktxTexture1.html#ac8a870c675f1e36c456c9de2e3ac9855',1,'ktxTexture1']]]
+  ['basedepth_0',['basedepth',['../structktxTexture.html#aede1f0e82bef41c03f3dea23a2f85ace',1,'ktxTexture::baseDepth'],['../structktxTextureCreateInfo.html#a71d7762f2b0dd61d57c0a7ec31ee46ac',1,'ktxTextureCreateInfo::baseDepth']]],
+  ['baseheight_1',['baseheight',['../structktxTexture.html#a5d16167996baa4ba678c1a610aaf26cc',1,'ktxTexture::baseHeight'],['../structktxTextureCreateInfo.html#afe7371a26104de3e131e82cf5cc39e9c',1,'ktxTextureCreateInfo::baseHeight']]],
+  ['basewidth_2',['basewidth',['../structktxTexture.html#a9d78c81b4e9f18f448c3b85f9ece712e',1,'ktxTexture::baseWidth'],['../structktxTextureCreateInfo.html#a3fa51cc9001702e3f1d5a69cee65adf8',1,'ktxTextureCreateInfo::baseWidth']]],
+  ['basis_20compressed_20universal_20texture_3',['Writing a Basis-compressed Universal Texture',['../index.html#autotoc_md0',1,'']]],
+  ['basislz_20etc1s_20or_20uastc_20compressed_20texture_4',['Transcoding a BasisLZ/ETC1S or UASTC-compressed Texture',['../index.html#autotoc_md1',1,'']]],
+  ['bindbufferfuncptr_5',['bindBufferFuncPtr',['../structktxVulkanTexture__subAllocatorCallbacks.html#a2689a954037c8baaa1edf32d2834a693',1,'ktxVulkanTexture_subAllocatorCallbacks']]],
+  ['bindimagefuncptr_6',['bindImageFuncPtr',['../structktxVulkanTexture__subAllocatorCallbacks.html#a022984b3cdb46dc478d96b6b7f6f0530',1,'ktxVulkanTexture_subAllocatorCallbacks']]],
+  ['blockdimension_7',['blockDimension',['../structktxAstcParams.html#a7a2b8fd2f04b2990c176606e45a02c22',1,'ktxAstcParams']]]
 ];

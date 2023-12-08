@@ -13,5 +13,6 @@ var searchData=
   ['ktxtexturecreateinfo_10',['ktxTextureCreateInfo',['../structktxTextureCreateInfo.html',1,'']]],
   ['ktxvulkandeviceinfo_11',['ktxVulkanDeviceInfo',['../structktxVulkanDeviceInfo.html',1,'']]],
   ['ktxvulkanfunctions_12',['ktxVulkanFunctions',['../structktxVulkanFunctions.html',1,'']]],
-  ['ktxvulkantexture_13',['ktxVulkanTexture',['../structktxVulkanTexture.html',1,'']]]
+  ['ktxvulkantexture_13',['ktxVulkanTexture',['../structktxVulkanTexture.html',1,'']]],
+  ['ktxvulkantexture_5fsuballocatorcallbacks_14',['ktxVulkanTexture_subAllocatorCallbacks',['../structktxVulkanTexture__subAllocatorCallbacks.html',1,'']]]
 ];

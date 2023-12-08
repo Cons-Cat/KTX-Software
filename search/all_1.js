@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['khronos_20texture_20software_0',['Khronos Texture Software',['../index.html',1,'']]]
+  ['cases_0',['Special Cases',['../license.html#autotoc_md3',1,'']]]
 ];

@@ -47,6 +47,7 @@ var NAVTREE =
       [ "Version 1.0", "libktx_history.html#v1", null ]
     ] ],
     [ "Deprecated List", "deprecated.html", null ],
+    [ "Topics", "topics.html", "topics" ],
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
       [ "Data Fields", "functions.html", [
@@ -72,6 +73,7 @@ var NAVTREE =
     [ "Package", "../index.html", null ],
     [ "KTX Tools Reference", "../ktxtools/index.html", null ],
     [ "KTX Javascript Wrappers Reference", "../ktxjswrappers/index.html", null ],
+    [ "pyktx Reference", "pyktx/index.html", null ],
     [ "License", "../license.html", null ]
   ] ]
 ];
@@ -79,7 +81,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../index.html",
-"ktx_8h.html#a7ca1ab524f2161c1facbb716f4cfab00"
+"khr__df_8h.html#a5bd88597bb19796a77b5e83c01168e87a1ebe5c83841d116b6db7583508eac594",
+"structktxTexture.html#ae5d4a710cbfb6d279bfed49866c96257"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

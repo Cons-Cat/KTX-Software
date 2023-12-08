@@ -33,6 +33,7 @@ var structktxTexture2 =
     [ "ktxTexture2_TranscodeBasis", "group__reader.html#ga90cc33928a2dae962fb94b3fa2f6575d", null ],
     [ "ktxTexture2_VkUpload", "group__ktx__vkloader.html#gadf0fba44f518b61acd5d0ae86225ddee", null ],
     [ "ktxTexture2_VkUploadEx", "group__ktx__vkloader.html#ga265926439e3f9502f248684238e5cc48", null ],
+    [ "ktxTexture2_VkUploadEx_WithSuballocator", "group__ktx__vkloader.html#gacb13edcb651f0a8fb26dab9594ef7dc7", null ],
     [ "ktxTexture2_WriteToMemory", "group__writer.html#ga0113194b669b789a22d85b7ad992f117", null ],
     [ "ktxTexture2_WriteToNamedFile", "group__writer.html#ga745cee3857ade59e612c533d6faa8e2a", null ],
     [ "ktxTexture2_WriteToStdioStream", "group__writer.html#gadf2c2542471b7a94636216807cedd819", null ],

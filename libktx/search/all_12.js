@@ -1,10 +1,12 @@
 var searchData=
 [
-  ['selectorrdothreshold_0',['selectorRDOThreshold',['../structktxBasisParams.html#aea4a4f651952b4831fdfc784f7058866',1,'ktxBasisParams']]],
-  ['separatergtorgb_5fa_1',['separateRGToRGB_A',['../structktxBasisParams.html#a2b5e77802a353a04d6b8d1d848f98d47',1,'ktxBasisParams']]],
-  ['setpos_2',['setpos',['../structktxStream.html#aba03500510363a0b45025645ba4327cf',1,'ktxStream']]],
-  ['size_3',['size',['../structktxStream.html#ab3d4a868dd03d0fa92cdb5e5fd99ba50',1,'ktxStream']]],
-  ['skip_4',['skip',['../structktxStream.html#ad224d1f8e4291a2e66e090b3c6df3698',1,'ktxStream']]],
-  ['strings_2ec_5',['strings.c',['../strings_8c.html',1,'']]],
-  ['structsize_6',['structSize',['../structktxAstcParams.html#a51fe881fb2eae346ba017f7f55a1d642',1,'ktxAstcParams::structSize'],['../structktxBasisParams.html#a51fe881fb2eae346ba017f7f55a1d642',1,'ktxBasisParams::structSize']]]
+  ['noendpointrdo_0',['noEndpointRDO',['../structktxBasisParams.html#a24b0d409b2fbd536216196ca4e27358f',1,'ktxBasisParams']]],
+  ['non_20gl_20and_20non_20vulkan_20use_1',['Reading a KTX file for non-GL and non-Vulkan Use',['../index.html#readktx',1,'']]],
+  ['normalmap_2',['normalmap',['../structktxBasisParams.html#a59af70a939f66dce9749174c12cc3725',1,'ktxBasisParams::normalMap'],['../structktxAstcParams.html#a59af70a939f66dce9749174c12cc3725',1,'ktxAstcParams::normalMap']]],
+  ['noselectorrdo_3',['noSelectorRDO',['../structktxBasisParams.html#a740b64ff37292977ab3cf04d3fb3cd6b',1,'ktxBasisParams']]],
+  ['nosse_4',['noSSE',['../structktxBasisParams.html#a0024310d24bafd33ab41de3bd7dd6887',1,'ktxBasisParams']]],
+  ['numdimensions_5',['numdimensions',['../structktxTexture.html#ae4378ab23f88acb257e6b4c1d8f64bb8',1,'ktxTexture::numDimensions'],['../structktxTextureCreateInfo.html#a3c48573960eb90b1e38cc70457d2cda1',1,'ktxTextureCreateInfo::numDimensions']]],
+  ['numfaces_6',['numfaces',['../structktxTextureCreateInfo.html#a3a4bc2fa2e41bcec0bdb265505af0068',1,'ktxTextureCreateInfo::numFaces'],['../structktxTexture.html#acc36239d64c8e0562a7a14ccd140af70',1,'ktxTexture::numFaces']]],
+  ['numlayers_7',['numLayers',['../structktxTextureCreateInfo.html#ae1412e2bd82ef1baa7cb1479735d9c86',1,'ktxTextureCreateInfo']]],
+  ['numlevels_8',['numlevels',['../structktxTexture.html#aad80dfe68bfa0c1ddcc127c4c6e1dda8',1,'ktxTexture::numLevels'],['../structktxTextureCreateInfo.html#a782126a62c27ee8660a14565b906694c',1,'ktxTextureCreateInfo::numLevels']]]
 ];

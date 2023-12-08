@@ -25,6 +25,8 @@
 var NAVTREE =
 [
   [ "KTX Tools Reference", "index.html", [
+    [ "Authors", "../authors.html", null ],
+    [ "LICENSE file for the KhronosGroup/KTX-Software project", "../license.html", null ],
     [ "ktx", "ktx.html", [
       [ "ktx Overview", "index.html#autotoc_md0", null ],
       [ "SYNOPSIS", "ktx.html#ktx_synopsis", null ],
@@ -120,6 +122,7 @@ var NAVTREE =
     [ "Package", "../index.html", null ],
     [ "libktx Reference", "../libktx/index.html", null ],
     [ "KTX Javascript Wrappers Reference", "../ktxjswrappers/index.html", null ],
+    [ "pyktx Reference", "pyktx/index.html", null ],
     [ "License", "../license.html", null ]
   ] ]
 ];
