@@ -104,7 +104,7 @@ Georg Kolling, <a href="http://www.imgtec.com">Imagination Technology</a><br  />
 Jacob Str&ouml;m, <a href="http://www.ericsson.com">Ericsson AB</a></dd></dl>
 <p><dl class="section user"><dt>API Version</dt><dd>v4.0 </dd></dl>
 </p>
-<dl class="section rcs"><dt>Date</dt><dd>Wed Jul 5 20:41:13 2023 +0900 </dd></dl>
+<dl class="section rcs"><dt>Date</dt><dd>Fri Dec 22 22:46:49 2023 +0900 </dd></dl>
 <h1><a class="anchor" id="overview"></a>
 Usage Overview</h1>
 <p>The following <code><a class="el" href="structktxTexture.html" title="Base class representing a texture.">ktxTexture</a></code> examples work for both KTX and KTX2 textures. The texture type is determined from the file contents.</p>
@@ -163,7 +163,7 @@ Creating a GL texture object from a KTX file.</h2>
 <div class="line">                                        &amp;kTexture);</div>
 <div class="line">glGenTextures(1, &amp;texture); <span class="comment">// Optional. GLUpload can generate a texture.</span></div>
 <div class="line">result = ktxTexture_GLUpload(kTexture, &amp;texture, &amp;target, &amp;glerror);</div>
-<div class="line"><a class="code hl_define" href="ktx_8h.html#a0becd37ccf729eed8723b969bb93df3d">ktxTexture_Destroy</a>(texture);</div>
+<div class="line"><a class="code hl_define" href="ktx_8h.html#a0becd37ccf729eed8723b969bb93df3d">ktxTexture_Destroy</a>(kTexture);</div>
 <div class="line"><span class="comment">// ...</span></div>
 <div class="line"><span class="comment">// GL rendering using the texture</span></div>
 <div class="line"><span class="comment">// ...</span></div>
@@ -490,7 +490,7 @@ Writing an ASTC-Compressed Texture</h2>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Dec 17 2023 08:28:35 for libktx Reference by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Fri Dec 22 2023 14:47:59 for libktx Reference by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

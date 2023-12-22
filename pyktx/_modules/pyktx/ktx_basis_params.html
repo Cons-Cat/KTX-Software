@@ -115,8 +115,8 @@
 
     <span class="n">compression_level</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    Encoding speed vs. quality tradeoff. Range is [0,5]. </span>
-<span class="sd">    </span>
+<span class="sd">    Encoding speed vs. quality tradeoff. Range is [0,5].</span>
+
 <span class="sd">    Higher values are slower, but give higher quality. There is no default.</span>
 <span class="sd">    Callers must explicitly set this value. Callers can use</span>
 <span class="sd">    KTX_ETC1S_DEFAULT_COMPRESSION_LEVEL as a default value. Currently this is 2.</span>
@@ -127,13 +127,13 @@
 <span class="sd">    Compression quality. Range is [1,255].</span>
 
 <span class="sd">    Lower gives better compression/lower quality/faster.</span>
-<span class="sd">    Higher gives less compression/higher quality/slower. </span>
+<span class="sd">    Higher gives less compression/higher quality/slower.</span>
 <span class="sd">    This automatically determines values for max_endpoints, max_selectors,</span>
 <span class="sd">    endpoint_rdo_threshold, and selector_rdo_threshold for the target quality</span>
 <span class="sd">    level. Setting these parameters overrides the values determined by quality_level</span>
 <span class="sd">    which defaults to 128 if neither it nor both of max_endpoints and max_selectors</span>
 <span class="sd">    have been set.</span>
-<span class="sd">    </span>
+
 <span class="sd">    Both of max_endpoints and max_selectors must be set for them to have any effect.</span>
 <span class="sd">    quality_level will only determine values for endpoint_rdo_threshold and selector_rdo_threshold</span>
 <span class="sd">    when its value exceeds 128, otherwise their defaults will be used.</span>
@@ -150,7 +150,7 @@
     <span class="n">endpoint_rdo_threshold</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Set endpoint RDO quality threshold. The default is 1.25.</span>
-<span class="sd">    </span>
+
 <span class="sd">    Lower is higher quality but less quality per output bit (try [1.0,3.0].</span>
 <span class="sd">    This will override the value chosen by quality_level.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
@@ -158,15 +158,15 @@
     <span class="n">max_selectors</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Manually set the max number of color selector clusters. Range is [1,16128].</span>
-<span class="sd">    </span>
+
 <span class="sd">    Default is 0, unset. If this is set, max_endpoints must also be set, otherwise</span>
 <span class="sd">    the value will be ignored.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    
+
     <span class="n">selector_rdo_threshold</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Set selector RDO quality threshold. The default is 1.5.</span>
-<span class="sd">    </span>
+
 <span class="sd">    Lower is higher quality but less quality per output bit (try [1.0,3.0]).</span>
 <span class="sd">    This will override the value chosen by @c qualityLevel.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
@@ -174,7 +174,7 @@
     <span class="n">input_swizzle</span><span class="p">:</span> <span class="nb">bytes</span> <span class="o">=</span> <span class="nb">bytes</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    A swizzle to apply before encoding.</span>
-<span class="sd">    </span>
+
 <span class="sd">    It must match the regular expression /^[rgba01]{4}$/. If both this and</span>
 <span class="sd">    pre_swizzle are specified KtxTexture2.compressBasis() will raise INVALID_OPERATION.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
@@ -190,7 +190,7 @@
     <span class="n">pre_swizzle</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    If the texture has swizzle metadata, apply it before compressing.</span>
-<span class="sd">    </span>
+
 <span class="sd">    Swizzling, like rabb may yield drastically different error metrics</span>
 <span class="sd">    if done after supercompression.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
@@ -198,7 +198,7 @@
     <span class="n">separate_rg_to_rgb_a</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    This was and is a no-op.</span>
-<span class="sd">    </span>
+
 <span class="sd">    2-component inputs have always been automatically separated</span>
 <span class="sd">    using an &quot;rrrg&quot; input_swizzle.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
@@ -206,21 +206,21 @@
     <span class="n">no_endpoint_rdo</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Disable endpoint rate distortion optimizations.</span>
-<span class="sd">    </span>
+
 <span class="sd">    Slightly faster, less noisy output, but lower quality per output bit.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
 
     <span class="n">no_selector_rdo</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Disable selector rate distortion optimizations.</span>
-<span class="sd">    </span>
+
 <span class="sd">    Slightly faster, less noisy output, but lower quality per output bit.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
 
     <span class="n">uastc_flags</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="n">KtxPackUastcFlagBits</span><span class="o">.</span><span class="n">FASTEST</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    A set of KtxPackUastcFlagBits controlling UASTC encoding.</span>
-<span class="sd">    </span>
+
 <span class="sd">    The most important value is the level given in the</span>
 <span class="sd">    least-significant 4 bits which selects a speed vs quality tradeoff.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
@@ -231,7 +231,7 @@
     <span class="n">uastc_rdo_quality_scalar</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="mf">0.</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    UASTC RDO quality scalar (lambda).</span>
-<span class="sd">    </span>
+
 <span class="sd">    Lower values yield higher quality/larger LZ compressed files, higher</span>
 <span class="sd">    values yield lower quality/smaller LZ compressed files. A good range to</span>
 <span class="sd">    try is [.2,4]. Full range is [.001,50.0]. Default is 1.0.</span>

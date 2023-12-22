@@ -183,7 +183,7 @@
 <div class="viewcode-block" id="KtxTexture2.compress_astc"><a class="viewcode-back" href="../../docs/pyktx.ktx_texture2.html#pyktx.ktx_texture2.KtxTexture2.compress_astc">[docs]</a>    <span class="k">def</span> <span class="nf">compress_astc</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">params</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="n">KtxAstcParams</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
 <span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Encode and compress a ktx texture with uncompressed images to ASTC.</span>
-<span class="sd">        </span>
+
 <span class="sd">        The images are either encoded to ASTC block-compressed format. The</span>
 <span class="sd">        encoded images replace the original images and the texture&#39;s fields</span>
 <span class="sd">        including the dfd are modified to reflect the new state.</span>
@@ -289,7 +289,7 @@
 <span class="sd">        PVRTC2_4_RGB, PVRTC2_4_RGBA, ASTC_4x4_RGBA, ETC2_EAC_R11, ETC2_EAC_RG11, ETC and BC1_OR_3.</span>
 
 <span class="sd">        ETC automatically selects between ETC1_RGB and ETC2_RGBA according to whether an alpha</span>
-<span class="sd">        channel is available. BC1_OR_3 does likewise between BC1_RGB and BC3_RGBA. Note that if </span>
+<span class="sd">        channel is available. BC1_OR_3 does likewise between BC1_RGB and BC3_RGBA. Note that if</span>
 <span class="sd">        PVRTC1_4_RGBA or PVRTC2_4_RGBA is specified and there is no alpha channel PVRTC1_4_RGB</span>
 <span class="sd">        or PVRTC2_4_RGB respectively will be selected.</span>
 
