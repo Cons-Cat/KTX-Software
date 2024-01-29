@@ -25,7 +25,6 @@
 var menudata={children:[
 {text:"libktx Reference",url:"index.html"},
 {text:"Related Pages",url:"pages.html"},
-{text:"Topics",url:"topics.html"},
 {text:"Data Structures",url:"annotated.html",children:[
 {text:"Data Structures",url:"annotated.html"},
 {text:"Data Fields",url:"functions.html",children:[

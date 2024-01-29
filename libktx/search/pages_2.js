@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['libktx_20reference_0',['libktx Reference',['../index.html',1,'']]],
-  ['list_1',['Deprecated List',['../deprecated.html',1,'']]]
+  ['revision_20history_0',['Revision History',['../libktx_history.html',1,'']]]
 ];

@@ -47,7 +47,6 @@ var NAVTREE =
       [ "Version 1.0", "libktx_history.html#v1", null ]
     ] ],
     [ "Deprecated List", "deprecated.html", null ],
-    [ "Topics", "topics.html", "topics" ],
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
       [ "Data Fields", "functions.html", [
@@ -81,8 +80,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../index.html",
-"khr__df_8h.html#a5bd88597bb19796a77b5e83c01168e87a1ebe5c83841d116b6db7583508eac594",
-"structktxTexture.html#ae5d4a710cbfb6d279bfed49866c96257"
+"ktx_8h.html#a7780d97ec4de6aa30c4726fb71e3116cabb7ad088582cd16709a27679312363ae"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

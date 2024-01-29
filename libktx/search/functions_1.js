@@ -1,7 +1,7 @@
 var searchData=
 [
   ['ktxbuimageflagsbitstring_0',['ktxBUImageFlagsBitString',['../strings_8c.html#aa9077e4635ae86d84ec8bcb025d6b373',1,'strings.c']]],
-  ['ktxerrorstring_1',['ktxerrorstring',['../ktx_8h.html#a829eac221b33617c15a1b5a898a0771a',1,'ktxErrorString(KTX_error_code error):&#160;strings.c'],['../strings_8c.html#a252d7741a00562fbe2fd9d91d54d873b',1,'ktxErrorString(KTX_error_code error):&#160;strings.c']]],
+  ['ktxerrorstring_1',['ktxErrorString',['../ktx_8h.html#a829eac221b33617c15a1b5a898a0771a',1,'ktxErrorString(KTX_error_code error):&#160;strings.c'],['../strings_8c.html#a252d7741a00562fbe2fd9d91d54d873b',1,'ktxErrorString(KTX_error_code error):&#160;strings.c']]],
   ['ktxfilestream_5fconstruct_2',['ktxFileStream_construct',['../filestream_8c.html#a217a544c241e80216315a50883190519',1,'filestream.c']]],
   ['ktxfilestream_5fdestruct_3',['ktxFileStream_destruct',['../filestream_8c.html#adc6cf29b8543378ffae60e6eaa77c7fc',1,'filestream.c']]],
   ['ktxhashlist_5faddkvpair_4',['ktxHashList_AddKVPair',['../classktxHashList.html#ad013c9dd666f3b57e3b0a717e0186277',1,'ktxHashList']]],
@@ -26,7 +26,7 @@ var searchData=
   ['ktxmemstream_5fdestruct_23',['ktxMemStream_destruct',['../memstream_8c.html#a81f0db4b157134a8edf51c2936e853e4',1,'memstream.c']]],
   ['ktxmemstream_5fgetdata_24',['ktxMemStream_getdata',['../memstream_8c.html#a3f9cc251a3604f80da67440efff21b6d',1,'memstream.c']]],
   ['ktxmemstream_5fsetup_25',['ktxMemStream_setup',['../memstream_8c.html#a777303765bd7d021820c90ff6ad85afa',1,'memstream.c']]],
-  ['ktxsupercompressionschemestring_26',['ktxsupercompressionschemestring',['../strings_8c.html#a68c7368105d35f01b54573f22ecbe5fb',1,'ktxSupercompressionSchemeString(ktxSupercmpScheme scheme):&#160;strings.c'],['../ktx_8h.html#ad54399157902016600b0543ca027c61c',1,'ktxSupercompressionSchemeString(ktxSupercmpScheme scheme):&#160;strings.c']]],
+  ['ktxsupercompressionschemestring_26',['ktxSupercompressionSchemeString',['../strings_8c.html#a68c7368105d35f01b54573f22ecbe5fb',1,'ktxSupercompressionSchemeString(ktxSupercmpScheme scheme):&#160;strings.c'],['../ktx_8h.html#ad54399157902016600b0543ca027c61c',1,'ktxSupercompressionSchemeString(ktxSupercmpScheme scheme):&#160;strings.c']]],
   ['ktxtexture1_5fcreate_27',['ktxTexture1_Create',['../group__writer.html#ga761f4c933557aefa157900c076357c3e',1,'ktxTexture1']]],
   ['ktxtexture1_5fcreatefrommemory_28',['ktxTexture1_CreateFromMemory',['../group__reader.html#ga1f289eb80601208b79561804d2ec0121',1,'ktxTexture1']]],
   ['ktxtexture1_5fcreatefromnamedfile_29',['ktxTexture1_CreateFromNamedFile',['../group__reader.html#ga0319d9a33d3ea78da2ef786205f2a956',1,'ktxTexture1']]],
@@ -106,7 +106,7 @@ var searchData=
   ['ktxtexture_5fvkupload_103',['ktxTexture_VkUpload',['../group__ktx__vkloader.html#ga377a4a2c177956ea661549ee502d60da',1,'ktxTexture']]],
   ['ktxtexture_5fvkuploadex_104',['ktxTexture_VkUploadEx',['../group__ktx__vkloader.html#ga153164adbd7307ad1844c3e117faa325',1,'ktxTexture']]],
   ['ktxtexture_5fvkuploadex_5fwithsuballocator_105',['ktxTexture_VkUploadEx_WithSuballocator',['../group__ktx__vkloader.html#ga8d9b0820e70dd0239b2c1bdc0a7713f7',1,'ktxTexture']]],
-  ['ktxtranscodeformatstring_106',['ktxtranscodeformatstring',['../strings_8c.html#a25b70a70161c149687d0ca19fc839b81',1,'ktxTranscodeFormatString(ktx_transcode_fmt_e format):&#160;strings.c'],['../ktx_8h.html#ac86f20d7858aaacef77f7eee15983470',1,'ktxTranscodeFormatString(ktx_transcode_fmt_e format):&#160;strings.c']]],
+  ['ktxtranscodeformatstring_106',['ktxTranscodeFormatString',['../ktx_8h.html#ac86f20d7858aaacef77f7eee15983470',1,'ktxTranscodeFormatString(ktx_transcode_fmt_e format):&#160;strings.c'],['../strings_8c.html#a25b70a70161c149687d0ca19fc839b81',1,'ktxTranscodeFormatString(ktx_transcode_fmt_e format):&#160;strings.c']]],
   ['ktxvulkandeviceinfo_5fconstruct_107',['ktxVulkanDeviceInfo_Construct',['../group__ktx__vkloader.html#ga4bc9f0fa9af93d588276f54fe9a6ba50',1,'ktxVulkanDeviceInfo']]],
   ['ktxvulkandeviceinfo_5fconstructex_108',['ktxVulkanDeviceInfo_ConstructEx',['../group__ktx__vkloader.html#ga3c9d5bc5ac1d0e237ae62fd94c148764',1,'ktxVulkanDeviceInfo']]],
   ['ktxvulkandeviceinfo_5fcreate_109',['ktxVulkanDeviceInfo_Create',['../group__ktx__vkloader.html#ga82ac7e21e884652c519d9fe28ad5428c',1,'ktxVulkanDeviceInfo']]],

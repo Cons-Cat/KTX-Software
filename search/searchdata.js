@@ -1,7 +1,7 @@
 var indexSectionsWithContent =
 {
-  0: "acdfklnopst",
-  1: "afklpst"
+  0: "akl",
+  1: "akl"
 };
 
 var indexSectionNames =

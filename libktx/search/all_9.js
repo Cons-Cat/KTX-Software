@@ -1,11 +1,10 @@
 var searchData=
 [
-  ['data_0',['data',['../structktxStream.html#aa309e566a22e58804577e6fb6bf98c9d',1,'ktxStream']]],
-  ['datasize_1',['dataSize',['../structktxTexture.html#a4293be970dca1b8834c16e011358ac8a',1,'ktxTexture']]],
-  ['deprecated_20list_2',['Deprecated List',['../deprecated.html',1,'']]],
-  ['depth_3',['depth',['../structktxVulkanTexture.html#af43b771026fceb9a0b28256afc08f69b',1,'ktxVulkanTexture']]],
-  ['destruct_4',['destruct',['../structktxStream.html#a1215c8b33ba64ba53bd86134ae80c1d6',1,'ktxStream']]],
-  ['device_5',['device',['../structktxVulkanDeviceInfo.html#a8aef703a0ef81f8277415b03129f44d7',1,'ktxVulkanDeviceInfo']]],
-  ['devicememory_6',['deviceMemory',['../structktxVulkanTexture.html#a68699cf926eef628d726fe0fa402c34d',1,'ktxVulkanTexture']]],
-  ['devicememoryproperties_7',['deviceMemoryProperties',['../structktxVulkanDeviceInfo.html#a8adaad9220e0679d7cfc0c521d8c1736',1,'ktxVulkanDeviceInfo']]]
+  ['image_0',['image',['../structktxVulkanTexture.html#ac48af4a2f518b64b67c40aa0efa7de6b',1,'ktxVulkanTexture']]],
+  ['imageformat_1',['imageFormat',['../structktxVulkanTexture.html#ad2bc860aeb9a158aa37eb3e09db3638e',1,'ktxVulkanTexture']]],
+  ['imagelayout_2',['imageLayout',['../structktxVulkanTexture.html#ad69bab0528dbcee4c8780b488670a179',1,'ktxVulkanTexture']]],
+  ['inputswizzle_3',['inputSwizzle',['../structktxAstcParams.html#a0d67004efa49e08a7f39f71c93286b0a',1,'ktxAstcParams::inputSwizzle()'],['../structktxBasisParams.html#a0d67004efa49e08a7f39f71c93286b0a',1,'ktxBasisParams::inputSwizzle()']]],
+  ['instance_4',['instance',['../structktxVulkanDeviceInfo.html#ab264f628c25b3571174ecdd626526958',1,'ktxVulkanDeviceInfo']]],
+  ['isarray_5',['isArray',['../structktxTexture.html#ae904839d65da570a3b066a93e4573dab',1,'ktxTexture::isArray()'],['../structktxTextureCreateInfo.html#a9b5ca8c2e3fd76d8b427928775289078',1,'ktxTextureCreateInfo::isArray()']]],
+  ['iscubemap_6',['isCubemap',['../structktxTexture.html#a4664b1e11971ef492e66ada152fe8eb1',1,'ktxTexture']]]
 ];

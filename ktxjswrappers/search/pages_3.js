@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['image_20transcoder_20binding_0',['Basis Universal Image Transcoder binding',['../msc_basis_transcoder.html',1,'index']]]
+  ['libktx_20binding_0',['libktx Binding',['../libktx_js.html',1,'index']]],
+  ['license_20file_20for_20the_20khronosgroup_2fktx_2dsoftware_20project_1',['LICENSE file for the KhronosGroup/KTX-Software project',['../../license.html',1,'']]]
 ];
