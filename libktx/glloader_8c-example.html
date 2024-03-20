@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="ktx_logo_200.png"/></td>
   <td id="projectalign">
-   <div id="projectname">libktx Reference<span id="projectnumber">&#160;4.3.1</span>
+   <div id="projectname">libktx Reference<span id="projectnumber">&#160;4.3.2</span>
    </div>
    <div id="projectbrief">Libraries and tools to create and read KTX image texture files.</div>
   </td>
@@ -511,8 +511,21 @@ $(document).ready(function(){initNavTree('glloader_8c-example.html',''); initRes
 <div class="line"><span class="preprocessor">#include &quot;<a class="code" href="ktx_8h.html">ktx.h</a>&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;ktxint.h&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;texture.h&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;gl_format.h&quot;</span>      <span class="comment">// Must come after texture.h.</span></div>
+<div class="line"><span class="preprocessor">#include &quot;vk2gl.h&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;unused.h&quot;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="comment">/*</span></div>
+<div class="line"><span class="comment"> * These are defined only in compatibility mode (gl.h) not glcorearb.h</span></div>
+<div class="line"><span class="comment"> */</span></div>
+<div class="line"><span class="preprocessor">#if !defined( GL_LUMINANCE )</span></div>
+<div class="line"><span class="preprocessor">#define GL_LUMINANCE                  0x1909    </span><span class="comment">// deprecated</span></div>
+<div class="line"><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="preprocessor">#if !defined( GL_LUMINANCE_ALPHA )</span></div>
+<div class="line"><span class="preprocessor">#define GL_LUMINANCE_ALPHA            0x190A    </span><span class="comment">// deprecated</span></div>
+<div class="line"><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="preprocessor">#if !defined( GL_INTENSITY )</span></div>
+<div class="line"><span class="preprocessor">#define GL_INTENSITY                  0x8049    </span><span class="comment">// deprecated</span></div>
+<div class="line"><span class="preprocessor">#endif</span></div>
 <div class="line"> </div>
 <div class="line"><span class="comment">/*</span></div>
 <div class="line"><span class="comment"> * N.B. As of Doxygen 1.9.6 non-class members must use fully qualified</span></div>
@@ -1215,7 +1228,7 @@ $(document).ready(function(){initNavTree('glloader_8c-example.html',''); initRes
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">if</span> (This-&gt;<a id="a23" name="a23"></a>vkFormat != VK_FORMAT_UNDEFINED) {</div>
 <div class="line">        formatInfo.glInternalformat =</div>
-<div class="line">                            glGetInternalFormatFromVkFormat(This-&gt;vkFormat);</div>
+<div class="line">                            vkFormat2glInternalFormat(This-&gt;vkFormat);</div>
 <div class="line">        <span class="keywordflow">if</span> (formatInfo.glInternalformat == GL_INVALID_VALUE) {</div>
 <div class="line">            <span class="comment">// TODO Check for mapping metadata. If none</span></div>
 <div class="line">            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="ktx_8h.html#a7780d97ec4de6aa30c4726fb71e3116caf20c350e21ca603f3ffb2bc46235369a">KTX_INVALID_OPERATION</a>;</div>
@@ -1226,12 +1239,19 @@ $(document).ready(function(){initNavTree('glloader_8c-example.html',''); initRes
 <div class="line">                                     <span class="comment">// before upload.</span></div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    formatInfo.glFormat = glGetFormatFromInternalFormat(formatInfo.glInternalformat);</div>
-<div class="line">    formatInfo.glType = glGetTypeFromInternalFormat(formatInfo.glInternalformat);</div>
-<div class="line">    formatInfo.glBaseInternalformat = formatInfo.glInternalformat;</div>
-<div class="line">    <span class="keywordflow">if</span> (formatInfo.glFormat == GL_INVALID_VALUE || formatInfo.glType == GL_INVALID_VALUE)</div>
-<div class="line">        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="ktx_8h.html#a7780d97ec4de6aa30c4726fb71e3116caf20c350e21ca603f3ffb2bc46235369a">KTX_INVALID_OPERATION</a>;</div>
+<div class="line">    <span class="keywordflow">if</span> (This-&gt;<a id="a24" name="a24"></a>isCompressed) {</div>
+<div class="line">        <span class="comment">/* Unused. */</span></div>
+<div class="line">        formatInfo.glFormat = GL_INVALID_VALUE;</div>
+<div class="line">        formatInfo.glType = GL_INVALID_VALUE;</div>
+<div class="line">        formatInfo.glBaseInternalformat = GL_INVALID_VALUE;</div>
+<div class="line">    } <span class="keywordflow">else</span> {</div>
+<div class="line">        formatInfo.glFormat = vkFormat2glFormat(This-&gt;vkFormat);</div>
+<div class="line">        formatInfo.glType = vkFormat2glType(This-&gt;vkFormat);</div>
+<div class="line">        formatInfo.glBaseInternalformat = formatInfo.glInternalformat;</div>
 <div class="line"> </div>
+<div class="line">        <span class="keywordflow">if</span> (formatInfo.glFormat == GL_INVALID_VALUE || formatInfo.glType == GL_INVALID_VALUE)</div>
+<div class="line">            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="ktx_8h.html#a7780d97ec4de6aa30c4726fb71e3116caf20c350e21ca603f3ffb2bc46235369a">KTX_INVALID_OPERATION</a>;</div>
+<div class="line">    }</div>
 <div class="line">    <span class="comment">/* KTX 2 files require an unpack alignment of 1. OGL default is 4. */</span></div>
 <div class="line">    glGetIntegerv(GL_UNPACK_ALIGNMENT, &amp;previousUnpackAlignment);</div>
 <div class="line">    <span class="keywordflow">if</span> (previousUnpackAlignment != 1) {</div>
@@ -1253,7 +1273,7 @@ $(document).ready(function(){initNavTree('glloader_8c-example.html',''); initRes
 <div class="line">ktxTexture_GLUpload(<a class="code hl_class" href="structktxTexture.html">ktxTexture</a>* This, GLuint* pTexture, GLenum* pTarget,</div>
 <div class="line">                    GLenum* pGlerror)</div>
 <div class="line">{</div>
-<div class="line">    <span class="keywordflow">if</span> (This-&gt;<a id="a24" name="a24"></a><a class="code hl_variable" href="structktxTexture.html#ac838c216df52582085ca9e1eb6d19d07">classId</a> == ktxTexture2_c)</div>
+<div class="line">    <span class="keywordflow">if</span> (This-&gt;<a id="a25" name="a25"></a><a class="code hl_variable" href="structktxTexture.html#ac838c216df52582085ca9e1eb6d19d07">classId</a> == ktxTexture2_c)</div>
 <div class="line">        <span class="keywordflow">return</span> ktxTexture2_GLUpload((<a class="code hl_class" href="structktxTexture2.html">ktxTexture2</a>*)This, pTexture, pTarget,</div>
 <div class="line">                                     pGlerror);</div>
 <div class="line">    <span class="keywordflow">else</span></div>
@@ -1276,7 +1296,7 @@ $(document).ready(function(){initNavTree('glloader_8c-example.html',''); initRes
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Feb 7 2024 03:40:07 for libktx Reference by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="footer">Generated on Wed Mar 20 2024 16:37:04 for libktx Reference by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>
